@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 303.0, 127.0, 575.0, 432.0 ],
+		"rect" : [ 220.0, 116.0, 522.0, 360.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -89,13 +89,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-48",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.0, 417.0, 54.0, 125.0 ],
-					"text" : "\"Macintosh HD:/Users/ludo/Desktop/MW-l_28/src//MW-lite.maxpat\""
+					"patching_rect" : [ 394.0, 381.0, 54.0, 112.0 ],
+					"text" : "\"Macintosh HD:/Users/ludo/Meshroom/src//MW-lite.maxpat\""
 				}
 
 			}
@@ -579,14 +579,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 11.0,
 					"id" : "obj-23",
-					"items" : [ "lib", ",", "lib/controler", ",", "lib/gradient", ",", "lib/include", ",", "lib/include/mesh", ",", "lib/mesh", ",", "lib/player", ",", "quickmesh", ",", "quickmesh/quickMeshp15", ",", "quickmesh/quickMeshp15/application.macosx", ",", "quickmesh/quickMeshp15/application.macosx/source", ",", "quickmesh/quickMeshp15/data", ",", "quickmesh/quickMeshp15/libraries", ",", "quickmesh/quickMeshp15/libraries/controlP5", ",", "quickmesh/quickMeshp15/libraries/controlP5/library", ",", "quickmesh/quickMeshp15/libraries/objExporter", ",", "quickmesh/quickMeshp15/libraries/objExporter/library", ",", "quickmesh/quickMeshp15/libraries/OBJLoader", ",", "quickmesh/quickMeshp15/libraries/OBJLoader/library", ",", "quickmesh/quickMeshp15/libraries/triangulate", ",", "quickmesh/quickMeshp15/libraries/triangulate/library", ",", "quickmesh/quickMeshp2", ",", "quickmesh/quickMeshp2/data", ",", "quickmesh/quickMeshp2/libraries", ",", "quickmesh/quickMeshp2/libraries/controlP5", ",", "quickmesh/quickMeshp2/libraries/controlP5/library", ",", "quickmesh/quickMeshp2/libraries/objExporter", ",", "quickmesh/quickMeshp2/libraries/objExporter/library", ",", "quickmesh/quickMeshp2/libraries/OBJLoader", ",", "quickmesh/quickMeshp2/libraries/OBJLoader/library", ",", "quickmesh/quickMeshp2/libraries/triangulate", ",", "quickmesh/quickMeshp2/libraries/triangulate/library" ],
+					"items" : [ "lib", ",", "lib/controler", ",", "lib/gradient", ",", "lib/include", ",", "lib/include/mesh", ",", "lib/mesh", ",", "lib/player", ",", "quickmesh", ",", "quickmesh/objex", ",", "quickmesh/objex/data", ",", "quickmesh/objex/distribution", ",", "quickmesh/objex/distribution/QckMobjexport-1", ",", "quickmesh/objex/distribution/QckMobjexport-1/download", ",", "quickmesh/objex/distribution/QckMobjexport-1/examples", ",", "quickmesh/objex/distribution/QckMobjexport-1/examples/Hello", ",", "quickmesh/objex/distribution/QckMobjexport-1/reference", ",", "quickmesh/objex/distribution/QckMobjexport-1/reference/ludo", ",", "quickmesh/objex/distribution/QckMobjexport-1/reference/ludo/objexport", ",", "quickmesh/objex/distribution/QckMobjexport-1/reference/resources", ",", "quickmesh/objex/distribution/QckMobjexport-1/reference/template", ",", "quickmesh/objex/distribution/QckMobjexport-1/reference/template/library", ",", "quickmesh/objex/examples", ",", "quickmesh/objex/examples/Hello", ",", "quickmesh/objex/lib", ",", "quickmesh/objex/resources", ",", "quickmesh/objex/resources/code", ",", "quickmesh/objex/src", ",", "quickmesh/objex/src/ludo", ",", "quickmesh/objex/src/ludo/objexport", ",", "quickmesh/objex/src/template", ",", "quickmesh/objex/src/template/library", ",", "quickmesh/objex/web", ",", "quickmesh/quickMeshp15", ",", "quickmesh/quickMeshp15/application.macosx", ",", "quickmesh/quickMeshp15/application.macosx/source", ",", "quickmesh/quickMeshp15/data", ",", "quickmesh/quickMeshp15/libraries", ",", "quickmesh/quickMeshp15/libraries/controlP5", ",", "quickmesh/quickMeshp15/libraries/controlP5/library", ",", "quickmesh/quickMeshp15/libraries/objExporter", ",", "quickmesh/quickMeshp15/libraries/objExporter/library", ",", "quickmesh/quickMeshp15/libraries/OBJLoader", ",", "quickmesh/quickMeshp15/libraries/OBJLoader/library", ",", "quickmesh/quickMeshp15/libraries/triangulate", ",", "quickmesh/quickMeshp15/libraries/triangulate/library", ",", "quickmesh/quickMeshp2", ",", "quickmesh/quickMeshp2/data", ",", "quickmesh/quickMeshp2/libraries", ",", "quickmesh/quickMeshp2/libraries/controlP5", ",", "quickmesh/quickMeshp2/libraries/controlP5/library", ",", "quickmesh/quickMeshp2/libraries/objExporter", ",", "quickmesh/quickMeshp2/libraries/objExporter/library", ",", "quickmesh/quickMeshp2/libraries/OBJLoader", ",", "quickmesh/quickMeshp2/libraries/OBJLoader/library", ",", "quickmesh/quickMeshp2/libraries/triangulate", ",", "quickmesh/quickMeshp2/libraries/triangulate/library" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 267.0, 273.0, 100.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/ludo/Desktop/MW-l_28/src/",
+					"prefix" : "Macintosh HD:/Users/ludo/Meshroom/src/",
 					"types" : "fold"
 				}
 
@@ -741,8 +741,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 345.0, 205.0, 20.0 ],
-					"text" : "sprintf symout %s/MW-lite.maxpat"
+					"patching_rect" : [ 267.0, 345.0, 223.0, 20.0 ],
+					"text" : "sprintf symout %s/MeshRoom.maxpat"
 				}
 
 			}
@@ -1290,7 +1290,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Story_16x16.png",
-				"bootpath" : "/Users/ludo/Desktop/MW-l_28/src",
+				"bootpath" : "/Users/ludo/Meshroom/src",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
