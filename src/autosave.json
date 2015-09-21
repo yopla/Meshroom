@@ -1,0 +1,82 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mlit",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"back" : [ 1 ],
+					"window::utput[1]" : [ "#-#", "grand", 450, 150, 500, 300, "#-#", "petit", 10, 600, 300, 200 ],
+					"patcher::peth::ppalwinsize" : [ "size", 23, 44, 317, 576 ],
+					"patcher[1]::players-bis::patcher::texture2reload" : [ "#-#", "pla", "script newobject bpatcher player-simple.maxpat @bgmode 1 @args pla 10 69 300 270 @varname pla @presentation 1 @patching_rect 10 69 300 270 @presentation_rect 10 69 300 270" ],
+					"patcher[1]::players-bis::patcher::winsize" : [ "size", 378, 125, 1440, 787 ],
+					"patcher[1]::players-bis::control-bis::patcher::control1reload" : [  ],
+					"patcher[1]::players-bis::control-bis::patcher::winsize" : [ "size", 4, 170, 1066, 832 ],
+					"patcher[1]::players-bis::pla::pla-video" : [ "absolute", "/Users/ludo/Meshroom/data/extra/export.jpg" ],
+					"patcher[1]::players-bis::pla::drager::mini" : [ 0 ],
+					"patcher[1]::mesh-bis::patcher::mesh1reload" : [ "#-#", "ba", "script newobject bpatcher abs-map-editeur.maxpat @bgmode 1 @args ba 10 120 650 150 @varname ba @presentation 1 @patching_rect 10 120 650 150 @presentation_rect 10 120 650 150", "#-#", "fr", "script newobject bpatcher abs-map-editeur.maxpat @bgmode 1 @args fr 7 277 650 150 @varname fr @presentation 1 @patching_rect 7 277 650 150 @presentation_rect 7 277 650 150" ],
+					"patcher[1]::mesh-bis::patcher::winsize" : [ "size", 367, 291, 1334, 731 ],
+					"patcher[1]::mesh-bis::view::winsize" : [ "size", 912, 44, 1269, 195 ],
+					"patcher[1]::mesh-bis::ba::patcher::inside::patcher::ba-ul" : [ 0.0, 0.0 ],
+					"patcher[1]::mesh-bis::ba::patcher::inside::patcher::ba-ur" : [ 1.0, 0.0 ],
+					"patcher[1]::mesh-bis::ba::patcher::inside::patcher::ba-lr" : [ 1.0, 1.0 ],
+					"patcher[1]::mesh-bis::ba::patcher::inside::patcher::ba-ll" : [ 0.0, 1.0 ],
+					"patcher[1]::mesh-bis::ba::patcher::inside::patcher::ba-local" : [ 0 ],
+					"patcher[1]::mesh-bis::ba::patcher::inside::patcher::ba-hom" : [ 0 ],
+					"patcher[1]::mesh-bis::ba::patcher::inside::cal" : [ 1 ],
+					"patcher[1]::mesh-bis::ba::patcher::ba-nodesizex" : [ 300 ],
+					"patcher[1]::mesh-bis::ba::patcher::ba-nodesizey" : [ 200 ],
+					"patcher[1]::mesh-bis::ba::patcher::ba-modifier" : [ 2 ],
+					"patcher[1]::mesh-bis::ba::patcher::ba-drawcorner" : [ 0 ],
+					"patcher[1]::mesh-bis::ba::patcher::ba-cropmesh" : [ 0 ],
+					"patcher[1]::mesh-bis::ba::patcher::ba-adapt" : [ 1 ],
+					"patcher[1]::mesh-bis::ba::patcher::cornerpin[1]::ba-UL" : [ 0, 0 ],
+					"patcher[1]::mesh-bis::ba::patcher::cornerpin[1]::ba-UR" : [ 1000, 0 ],
+					"patcher[1]::mesh-bis::ba::patcher::cornerpin[1]::ba-LL" : [ 0, 1000 ],
+					"patcher[1]::mesh-bis::ba::patcher::cornerpin[1]::ba-LR" : [ 1000, 1000 ],
+					"patcher[1]::mesh-bis::ba::patcher::diagcrop::ba-cropp2" : [ 1000, 1000 ],
+					"patcher[1]::mesh-bis::ba::patcher::diagcrop::ba-cropp1" : [ 1000, -1000 ],
+					"patcher[1]::mesh-bis::ba::ba-obj" : [ "absolute", "/Users/ludo/Meshroom/data/meshes/00" ],
+					"patcher[1]::mesh-bis::ba::ba-face" : [ 1 ],
+					"patcher[1]::mesh-bis::ba::ba-subd" : [ 0 ],
+					"patcher[1]::mesh-bis::ba::ba-layer" : [ 0 ],
+					"patcher[1]::mesh-bis::ba::ba-blend" : [ 0 ],
+					"patcher[1]::mesh-bis::ba::ba-texture" : [ "pla" ],
+					"patcher[1]::mesh-bis::ba::drager::mini" : [ 0 ],
+					"patcher[1]::mesh-bis::fr::fr-obj" : [ "absolute", "/Users/ludo/Meshroom/data/meshes/2x2.obj" ],
+					"patcher[1]::mesh-bis::fr::fr-face" : [ 1 ],
+					"patcher[1]::mesh-bis::fr::fr-subd" : [ 0 ],
+					"patcher[1]::mesh-bis::fr::fr-layer" : [ 0 ],
+					"patcher[1]::mesh-bis::fr::fr-blend" : [ 0 ],
+					"patcher[1]::mesh-bis::fr::fr-texture" : [ "ba-text" ],
+					"patcher[1]::mesh-bis::fr::drager::mini" : [ 0 ],
+					"patcher[1]::mesh-bis::fr::patcher::fr-nodesizex" : [ 300 ],
+					"patcher[1]::mesh-bis::fr::patcher::fr-nodesizey" : [ 200 ],
+					"patcher[1]::mesh-bis::fr::patcher::fr-modifier" : [ 1 ],
+					"patcher[1]::mesh-bis::fr::patcher::fr-drawcorner" : [ 0 ],
+					"patcher[1]::mesh-bis::fr::patcher::fr-cropmesh" : [ 0 ],
+					"patcher[1]::mesh-bis::fr::patcher::fr-adapt" : [ 1 ],
+					"patcher[1]::mesh-bis::fr::patcher::cornerpin[1]::fr-UL" : [ -78, -95 ],
+					"patcher[1]::mesh-bis::fr::patcher::cornerpin[1]::fr-UR" : [ 1216, 40 ],
+					"patcher[1]::mesh-bis::fr::patcher::cornerpin[1]::fr-LL" : [ 171, 919 ],
+					"patcher[1]::mesh-bis::fr::patcher::cornerpin[1]::fr-LR" : [ 759, 861 ],
+					"patcher[1]::mesh-bis::fr::patcher::diagcrop::fr-cropp2" : [ 1000, 1000 ],
+					"patcher[1]::mesh-bis::fr::patcher::diagcrop::fr-cropp1" : [ 1000, -1000 ],
+					"patcher[1]::mesh-bis::fr::patcher::inside::cal" : [ 1 ],
+					"patcher[1]::mesh-bis::fr::patcher::inside::patcher::fr-ul" : [ 0.251, 0.288 ],
+					"patcher[1]::mesh-bis::fr::patcher::inside::patcher::fr-ur" : [ 0.774, 0.26 ],
+					"patcher[1]::mesh-bis::fr::patcher::inside::patcher::fr-lr" : [ 0.673, 0.77 ],
+					"patcher[1]::mesh-bis::fr::patcher::inside::patcher::fr-ll" : [ 0.351, 0.82 ],
+					"patcher[1]::mesh-bis::fr::patcher::inside::patcher::fr-local" : [ 0.632825, -0.155642, 0.034743, -0.046326, 0.438945, 0.038409, -0.146134, -0.588721, 1.0 ],
+					"patcher[1]::mesh-bis::fr::patcher::inside::patcher::fr-hom" : [ 1.705902, 0.499651, -0.07846, 0.150476, 2.357664, -0.095784, 0.337878, 1.461023, 1.0 ],
+					"patcher[1]::degr-bis::patcher::texture1reload" : [  ],
+					"patcher[1]::degr-bis::patcher::winsize" : [ "size", 393, 158, 1400, 804 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,7 +1,4 @@
-# Meshroom
-
-
-MeshRoom is the same as MW-lite (Mesh Warp Lite) which is a fork from the great MeshWarp Server by Maybites
+MW-lite (Mesh Warp Lite) is a fork from the great MeshWarp Server by Maybites
 v30
 this is the Yopla version : an adaptation in order to make quick test in theatre research for example
 

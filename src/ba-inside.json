@@ -1,0 +1,22 @@
+{
+	"pattrstorage" : 	{
+		"name" : "cal",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"patcher::ba-ul" : [ 0.0, 0.0 ],
+					"patcher::ba-ur" : [ 1.0, 0.0 ],
+					"patcher::ba-lr" : [ 1.0, 1.0 ],
+					"patcher::ba-ll" : [ 0.0, 1.0 ],
+					"patcher::ba-local" : [ 0 ],
+					"patcher::ba-hom" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
